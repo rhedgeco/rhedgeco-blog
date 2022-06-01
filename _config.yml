@@ -1,7 +1,9 @@
 site: Hedgecock Dev Blog
 title: Hedgecock Dev Blog
 greetings: Hi I'm Ryan 👋
-description: Welcome to my blog, have a look around!
+description: |
+  Welcome to my blog, have a look around!
+  I do a lot of work with the Unity Engine, and I especially love procedural generation. My content may be a little all over the place, but thats part of the fun right? 😅
 lang: en-US
 timezone: America/Los_Angeles
 repo: https://github.com/rhedgeco/rhedgeco-blog # site repo
