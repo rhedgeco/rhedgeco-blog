@@ -12,7 +12,7 @@ layout: compress
    function gtag() { dataLayer.push(arguments); }
    gtag('js', new Date());
 
-   gtag('config', 'G-3EP7KLCYVP');
+   gtag('config', 'G-8ET1Q8YNRG');
  </script>
 
 
@@ -23,7 +23,7 @@ layout: compress
     {% include anchor_headings.html html=content anchorBody="#" %}
   </main>
 
-  
+
 
   <script>
     function setTheme(theme) {
@@ -32,11 +32,19 @@ layout: compress
         window.localStorage.setItem('theme', 'dark');
         document.getElementById("theme-toggle").classList.add('sun');
         document.getElementById("theme-toggle").classList.remove('moon');
+        document.querySelector('iframe').contentWindow.postMessage({
+          type: 'set-theme',
+          theme: 'github-dark'
+        }, 'https://utteranc.es');
       } else {
         document.documentElement.setAttribute('data-theme', 'light');
         window.localStorage.setItem('theme', 'light');
         document.getElementById("theme-toggle").classList.add('moon');
         document.getElementById("theme-toggle").classList.remove('sun');
+        document.querySelector('iframe').contentWindow.postMessage({
+          type: 'set-theme',
+          theme: 'github-light'
+        }, 'https://utteranc.es');
       }
     }
 
