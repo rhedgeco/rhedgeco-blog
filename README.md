@@ -1,4 +1,4 @@
-# Ryan Hedgecock Blog Source
+# Ryan Hedgecock Dev Blog
 
 This is the source for my blog. Based on the Jykyll [Gesko Template](https://github.com/P0WEX/Gesko).
 
