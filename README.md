@@ -2,8 +2,6 @@
 
 This is the source for my blog. Based on the Jykyll [Gesko Template](https://github.com/P0WEX/Gesko).
 
----
-
 ## Local Development
 
 Make sure [Jekyll](https://jekyllrb.com/docs/installation/) is installed.
