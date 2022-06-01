@@ -10,9 +10,7 @@ layout: default
       <div></div>
     </button>
   </div>
-  {% assign minute=content | number_of_words | divided_by: 265 | plus: 1 %}
-  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }} -  
-    {% if page.minute %} {{ page.minute }} {% else %} {{ minute }} {% endif %}' read</time>
+  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
   <h1 class="title">{{ page.title }}</h1>
   <span class="meta">
     {% for tag in page.tags %}
@@ -38,13 +36,4 @@ layout: default
   </nav>
 </section>
 
-<!--github-utterances-->
-<script src="https://utteranc.es/client.js"
-        repo="rhedgeco/rhedgeco-blog"
-        issue-term="title"
-        label="blog chat 💬"
-        crossorigin="anonymous"
-        onload="this.theme=localStorage.getItem('theme')==='dark'?'github-dark':'github-light'"
-        async>
-</script>
-<!--end github-utterances-->
+{% include utterances.html %}

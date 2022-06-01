@@ -242,7 +242,7 @@ section {
 }
 
 section {
-	margin-top: 5.5rem;
+// 	margin-top: 5.5rem;
 }
 
 blockquote {
@@ -369,7 +369,7 @@ time {
 main {
 	display: flex;
 	max-width: 47rem;
-	margin: -5rem auto 0;
+	margin: 0 auto 0;
 	padding: 2.4rem 2rem;
 	flex-direction: column;
 }
@@ -438,7 +438,7 @@ figcaption {
 }
 
 .bio {
-	margin-bottom: 5rem;
+	margin-bottom: 1rem;
 }
 
 ::selection {
