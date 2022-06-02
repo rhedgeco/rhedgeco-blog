@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Hedgecock Dev Blog</title>
+ <link href="https://blog.hedgecock.dev/atom.xml" rel="self"/>
+ <link href="https://blog.hedgecock.dev/"/>
+ <updated>2022-06-02T11:24:00-07:00</updated>
+ <id>https://blog.hedgecock.dev</id>
+ <author>
+   <name>rhedgeco</name>
+   <email>rhedgeco@email.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Procedural Audio Synthesis in the Unity Engine</title>
+   <link href="https://blog.hedgecock.dev/2022/06/01/unity-procedural-audio"/>
+   <updated>2022-06-01T00:00:00-07:00</updated>
+   <id>https://blog.hedgecock.dev/2022/06/01/unity-procedural-audio</id>
+   <content type="html">&lt;p&gt;test&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

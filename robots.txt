@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://blog.hedgecock.dev/sitemap.xml

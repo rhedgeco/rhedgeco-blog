@@ -1,0 +1,44 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Hedgecock Dev Blog",
+    "home_page_url": "https://blog.hedgecock.dev/",
+    "feed_url": "https://blog.hedgecock.dev/feed.json",
+    "description": "Welcome to my blog, have a look around! I do a lot of work with the Unity Engine, and I especially love procedural generation. My content may be a little all over the place, but that's part of the fun right? 😅 Thanks for stopping by!\n",
+    "icon": "https://blog.hedgecock.dev/apple-touch-icon.png",
+    "favicon": "https://blog.hedgecock.dev/favicon.ico",
+    "expired": false,
+    
+    "author":  {
+        "name": "rhedgeco",
+        "url": null,
+        "avatar": null
+    },
+    
+"items": [
+    
+        {
+            "id": "https://blog.hedgecock.dev/2022/06/01/unity-procedural-audio",
+            "title": "Procedural Audio Synthesis in the Unity Engine",
+            "summary": "How to generate procedural audio at runtime in the Unity Engine.",
+            "content_text": "test",
+            "content_html": "<p>test</p>",
+            "url": "https://blog.hedgecock.dev/2022/06/01/unity-procedural-audio",
+            
+            
+            
+            "tags": ["unity3d","procedural","audio"],
+            
+            "date_published": "2022-06-01T00:00:00-07:00",
+            "date_modified": "2022-06-01T00:00:00-07:00",
+            
+                "author":  {
+                "name": "rhedgeco",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        }
+    
+    ]
+}
